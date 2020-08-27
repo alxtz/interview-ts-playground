@@ -1,0 +1,15 @@
+{
+  "name": "ts-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --watch './**/*.js' --ignore 'src/**/*.spec.ts' --exec node index.js",
+    "dev-ts": "nodemon --watch './**/*.ts' --ignore 'src/**/*.spec.ts' --exec ts-node index.ts"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
